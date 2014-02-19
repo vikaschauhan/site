@@ -1,0 +1,356 @@
+
+/* IE9  - Also picked up by most modern browsers */
+/* line 10, style1.scss */
+::selection {
+  background: rgba(219, 233, 241, 0.4);
+  text-shadow: none;
+}
+
+/* Safari & Chrome - Webkit Rendering */
+/* line 16, style1.scss */
+::-webkit-selection {
+  background: rgba(219, 233, 241, 0.4);
+  text-shadow: none;
+}
+
+/* Mozilla based - Gecko Rendering */
+/* line 22, style1.scss */
+::-moz-selection {
+  background: rgba(219, 233, 241, 0.4);
+  text-shadow: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* line 27, style1.scss */
+body {
+  background: #FF7200;
+  background: linear-gradient(0deg, rgba(0,0,0,0.1) 0 , rgba(0,0,0,0.1) 1px ,transparent 1px ,transparent),
+linear-gradient(90deg, rgba(0,0,0,0.1) 0 , rgba(0,0,0,0.1) 1px ,transparent 1px ,transparent), 
+linear-gradient(-30deg,#FF7200 0 , #FF7200 50%, #008dff 50%, #008dff 100%);
+background-size:1.4em 1.4em,1.4em 1.4em , 100% 100%;
+line-height:1.4em;
+
+  
+
+
+
+  margin: 7px;
+  border: 2px solid #fff;
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 36, style1.scss */
+nav {
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height:100%;
+  text-align: center;
+  background-color: #707070;
+  border-bottom: 2px solid #fff;
+}
+/* line 44, style1.scss */
+nav ul {
+  background-color: #fff;
+  padding: 0px;
+  display: inline-block;
+  margin: 0px;
+}
+/* line 48, style1.scss */
+nav ul li {
+  display: inline-block;
+}
+/* line 52, style1.scss */
+nav ul li a {
+  text-decoration: none;
+  color: #2c343b;
+  font-weight: bold;
+  display: block;
+  padding: 15px 40px;
+}
+/* line 53, style1.scss */
+nav ul li a:hover {
+  background-color: #D0DD2B;
+  color: #2c343b;
+  margin-top: -1px;
+}
+
+/* line 59, style1.scss */
+.hero {
+  text-align: center;
+  margin: 50px 0px;
+}
+/* line 62, style1.scss */
+.hero h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 21px;
+  line-height: 28px;
+}
+/* line 68, style1.scss */
+.hero p {
+  color: #D0DD2B;
+}
+/* line 70, style1.scss */
+.hero p span.highlight {
+  color: #3B3B3D;
+}
+/* line 71, style1.scss */
+.hero p a {
+  color: #3B3B3D;
+}
+
+/* line 74, style1.scss */
+.content {
+  float: left;
+  display: block;
+  clear: both;
+  width: 100%;
+  padding: 45px 0px;
+  background-color: #E3E3E3;
+  background: linear-gradient(0deg, rgba(0,0,0,0.1) 0 , rgba(0,0,0,0.1) 1px ,transparent 1px ,transparent),
+linear-gradient(90deg, rgba(0,0,0,0.1) 0 , rgba(0,0,0,0.1) 1px ,transparent 1px ,transparent), 
+linear-gradient(-30deg,#fff 0 , #fff 50%, #fff 50%, #fff 100%);
+background-size:1.4em 1.4em,1.4em 1.4em , 100% 100%;
+min-height: 100%;
+line-height:1.4em;
+
+
+}
+/* line 79, style1.scss */
+.content .leftcontent {
+  float: left;
+  width: 50%;
+  display: inline-block;
+}
+/* line 83, style1.scss */
+.content .leftcontent .innerblock {
+  float: right;
+}
+/* line 84, style1.scss */
+.content .leftcontent .bloghighlight {
+  max-width: 550px;
+  margin: 0px auto;
+}
+/* line 88, style1.scss */
+.content .leftcontent .bloghighlight article {
+  margin-top: 25px;
+}
+/* line 89, style1.scss */
+.content .leftcontent .bloghighlight h4 {
+  text-align: center;
+  font-size: 19px;
+  margin: 0;
+}
+/* line 95, style1.scss */
+.content .leftcontent .bloghighlight .article-title h3 {
+  color: #2c343b;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0px;
+}
+/* line 98, style1.scss */
+.content .leftcontent .bloghighlight .article-details h3.date {
+  font-size: 12px;
+  color: #4f4f4f;
+  font-height: 14px;
+  margin: 0px;
+}
+/* line 105, style1.scss */
+.content .leftcontent .bloghighlight .article-summary {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+/* line 108, style1.scss */
+.content .leftcontent .bloghighlight .article-summary a.readmore {
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #e65b53;
+  font-weight: 700;
+  float: right;
+  display: block;
+  padding: 3px 10px;
+  margin-bottom: 25px;
+}
+/* line 117, style1.scss */
+.content .leftcontent .bloghighlight .article-summary a.readmore:hover {
+  color: #fff;
+  background-color: #e65b53;
+}
+/* line 123, style1.scss */
+.content .rightcontent {
+  float: left;
+  width: 50%;
+  display: inline-block;
+}
+/* line 127, style1.scss */
+.content .rightcontent .innerblock {
+  float: left;
+}
+/* line 129, style1.scss */
+.content .rightcontent ul {
+  margin-top: 25px;
+}
+/* line 131, style1.scss */
+.content .rightcontent ul li {
+  list-style-type: none;
+  color: #2c343b;
+  padding-top: 15px;
+}
+/* line 135, style1.scss */
+.content .rightcontent ul li a {
+  font-weight: bold;
+  font-size: 14px;
+  color: #e65b53;
+  word-wrap: break-word;
+}
+/* line 143, style1.scss */
+.content .rightcontent .highlight {
+  max-width: 550px;
+  margin: 0 auto;
+}
+/* line 147, style1.scss */
+.content .rightcontent .highlight img {
+  width: 225px;
+  height: 225px;
+}
+/* line 151, style1.scss */
+.content .rightcontent .highlight h2 {
+  text-align: center;
+  font-size: 19px;
+  margin: 0;
+}
+/* line 157, style1.scss */
+.content .rightcontent .highlight ul.portfolio-images li {
+  display: inline-block;
+  padding: 0;
+}
+/* line 165, style1.scss */
+.content .innerblock {
+  padding: 0px 30px;
+}
+
+/* line 170, style1.scss */
+.link {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  width: 150px;
+  text-align: center;
+}
+/* line 177, style1.scss */
+.link a {
+  display: block;
+  background-color: #e65b53;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 7px;
+}
+/* line 185, style1.scss */
+.link a:hover {
+  background-color: #4f4f4f;
+}
+
+/* line 189, style1.scss */
+.expertise {
+  float: left;
+  width: 100%;
+}
+/* line 193, style1.scss */
+.expertise .col13 {
+  display: inline-block;
+  width: 25%;
+  margin: 4%;
+  color: #fff;
+}
+/* line 198, style1.scss */
+.expertise .col13 h2 {
+  text-align: center;
+}
+/* line 201, style1.scss */
+.expertise h3 {
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacer: 2px;
+  text-align: center;
+  padding: 35px 0px 0px 0px;
+  color: #fff;
+}
+/* line 209, style1.scss */
+.expertise .exwrapper {
+  padding-bottom: 75px;
+}
+/* line 213, style1.scss */
+.expertise .expert1 {
+  display: block;
+}
+
+/* line 221, style1.scss */
+.arrow_box_pink {
+  position: relative;
+  background: #E65B53;
+}
+
+/* line 225, style1.scss */
+.arrow_box_pink:after {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(230, 91, 83, 0);
+  border-top-color: #E65B53;
+  border-width: 30px;
+  margin-left: -30px;
+}
+
+/* line 241, style1.scss */
+footer {
+  float: left;
+  clear: both;
+  padding: 50px 0px;
+  width: 100%;
+  background-color: #fff;
+}
+/* line 247, style1.scss */
+footer ul.cta {
+  max-width: 550px;
+  margin: 0 auto;
+}
+/* line 250, style1.scss */
+footer ul.cta li {
+  list-style-type: none;
+  color: #2c343b;
+}
+/* line 253, style1.scss */
+footer ul.cta li a {
+  color: #e65b53;
+}
+.leftcontent{
+  border-radius: 6px;
+  box-shadow: 0 0 20px -7px #000;
+  position: relative;
+  background: #f6f6f6;
+}
+
+.me {
+  display: block;
+  margin: 2em auto;
+  margin-bottom: 3em;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
